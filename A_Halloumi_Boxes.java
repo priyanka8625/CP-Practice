@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Codeforces {
+public class A_Halloumi_Boxes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -13,6 +13,7 @@ public class Codeforces {
             String ans = solve(n, k, arr);
             System.out.println(ans);
         }
+        sc.close();
     }   
     public static String solve(int n, int k, int[] arr){
         if(k == 1){
