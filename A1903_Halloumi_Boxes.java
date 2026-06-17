@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class A_Halloumi_Boxes {
+public class A1903_Halloumi_Boxes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -17,6 +17,7 @@ public class A_Halloumi_Boxes {
 
             System.out.println(res? "YES" : "NO");
         }
+        sc.close();
     }
     public static boolean checkIfSortable(int[] arr, int k, int n){
         if(k > 1){
