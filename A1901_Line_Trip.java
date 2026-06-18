@@ -17,6 +17,7 @@ public class A1901_Line_Trip {
 
             System.out.println(minFuel);
         }
+        sc.close();
     }
     public static int findMinFuel(int[] arr, int n, int x){
         //find the max gap between the array points

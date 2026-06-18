@@ -12,6 +12,7 @@ public class A1900_Cover_in_Water {
             int min1Actions = findMin1Actions(n, s);
             System.out.println(min1Actions);
         }
+        sc.close();
     }
     public static int findMin1Actions(int n, String s){
         //count the no of consecutive empty cells
