@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class A1873_Target_Practice {
+public class C1873_Target_Practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine());
